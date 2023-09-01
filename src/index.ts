@@ -1,5 +1,3 @@
-function setOutput(output: any) {
-  (globalThis as any).scriptOutput = output;
+export default function(args: string[]) {
+  return args[0]
 }
-
-setOutput(123);
